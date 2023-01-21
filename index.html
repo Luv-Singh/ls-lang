@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LS Lang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h2>LS Interpreter</h2>
+    <div style="display: flex;">
+        <div id="line-numbers" style="width: 20px; background-color: #f5f5f5; padding: 10px; color: #333;"></div>
+        <textarea id="code-input" placeholder="Enter LS code here..." rows="30" cols="181"></textarea>
+    </div>
+    <br>
+    <div style="text-align:center;">
+        <button onclick="runCode()" style="height: 40px; width: 98%; cursor: pointer;">Run LS Code</button>
+    </div>
+    <br><br>
+    <pre id="output"></pre>
+</body>
+
+</html>

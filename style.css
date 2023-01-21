@@ -1,0 +1,29 @@
+/* Change the background color to a dark gray */
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Change the text color of the input and button to white */
+input[type="text"],
+button {
+    color: #fff;
+}
+
+/* Change the background color of the input and button to a dark gray */
+input[type="text"] {
+    background-color: #444;
+}
+
+button {
+    background-color: #0099ff;
+}
+
+button:hover {
+    background-color: rgb(61, 57, 57);
+}
+
+/* Change the background color of the output to a darker gray */
+#output {
+    background-color: #444;
+}
